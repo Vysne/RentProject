@@ -100,7 +100,10 @@ a, a:hover, a:focus {
 .wrapper {
     display: flex;
     align-items: stretch;
-    width: 0;
+}
+
+#wrapper {
+    width: 0px;
 }
 
 #sidebar {
@@ -109,11 +112,11 @@ a, a:hover, a:focus {
     min-height: 100vh;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .sidebar {
         padding-top: 200px;
     }
     .sidebar.active {
         font-size: 18px;
     }
-} */
+}
