@@ -30,7 +30,7 @@ a, a:hover, a:focus {
     background: black;
 }
 
-#sidebar ul.components {
+#sidebar > ul.components {
     padding: 20px 0;
     border-bottom: 1px solid rgb(74 74 74);
 }
