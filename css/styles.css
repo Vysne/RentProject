@@ -56,7 +56,7 @@ a, a:hover, a:focus {
 
 #content {
     margin-top: -950px;
-    margin-left: 350px;
+    margin-left: 0px;
     transition: margin-left .5s;
     padding: 20px;
 }
@@ -97,17 +97,13 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
-.wrapper {
-    display: flex;
-    align-items: stretch;
-}
-
 #wrapper {
-    width: 0px;
+    min-width: 250px;
+    max-width: 250px;
 }
 
 #sidebar {
-    min-width: 250px;
+    margin-left: -250px;
     max-width: 250px;
     min-height: 100vh;
 }
