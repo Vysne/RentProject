@@ -24,7 +24,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     
     <title>Eventify</title>
-
+    
 </head>
 
 <body>
@@ -71,7 +71,7 @@
         </div>
 
         <div id="dropdown">
-            <button class="userbtn" onclick="myFunction()"><i class="fas fa-user-circle"></i> User_Name_Surname <i class="fas fa-caret-down"></i></button>
+            <button class="userbtn" onclick="DropdownContent()"><i class="fas fa-user-circle"></i> User_Name_Surname <i class="fas fa-caret-down"></i></button>
             <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border w3-black">
                 <img src="assets/projectname.png" alt="Logo" width="150" height="80"><br><br>
                 <p><b><strong>Band: Band_Name</strong></b></p>
@@ -79,7 +79,25 @@
             </div>
         </div>
 
+
+        <div id="greeting">
+        <p id="greetingscript" class="greetingtxt"></p>
+        </div>
+        
     </div>
+
+    <script>
+        const time= new Date().getHours();
+        let greeting;
+        if(time < 10) {
+            greeting = "Good morning";
+        } else if (time < 20) {
+            greeting = "Good afternoon";
+        } else {
+            greeting = "Good evening";
+        }
+        document.getElementById("greetingscript").innerHTML = greeting;
+    </script>
 
 </div>
 

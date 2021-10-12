@@ -19,6 +19,17 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
+.wrapper {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar {
+    margin-left: -250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
 #sidebar {
     background: black;
     color: rgb(74 74 74);
@@ -96,6 +107,7 @@ a, a:hover, a:focus {
     color: rgb(74 74 74);
     transition: all 0.3s;
 }
+
 #dropdown {
     margin-top: -95px;
     margin-left: 150vh;
@@ -121,24 +133,20 @@ a, a:hover, a:focus {
     transition: 0.3s;
 }
 
-.wrapper {
-    min-width: 250px;
-    max-width: 250px;
+#greeting {
+    min-width: 400px;
+    max-width: 400px;
+    margin-left: 300px;
+    margin-top: -20px;
 }
 
-
-#userbar {
-    min-width: 300px;
-    max-width: 300px;
+.greetingtxt {
+    font-size: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
-#sidebar {
-    margin-left: -250px;
-    max-width: 250px;
-    min-height: 100vh;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 786px) {
     .sidebar {
         padding-top: 200px;
     }
@@ -149,5 +157,5 @@ a, a:hover, a:focus {
 
 /* Font Awesome Icon settings*/
 .fa-user-circle {
-    font-size: 40px;;
+    font-size: 40px;
 }

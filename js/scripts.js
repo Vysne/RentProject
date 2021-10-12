@@ -10,7 +10,8 @@ function closeNav() {
   document.getElementById("content").style.marginLeft = "0px";
 }
 
-function myFunction() {
+/* W3.CSS dropdown script */
+function DropdownContent() {
   var x = document.getElementById("Demo");
   if (x.className.indexOf("w3-show") == -1) { 
     x.className += " w3-show";
@@ -18,3 +19,17 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+/* Picks user's local time and sets it on greeting text*/
+// function GetLocalTime() {
+//   const time= new Date().getHours();
+//   let greeting;
+//   if(time < 10) {
+//     greeting = "Good morning";
+//   } else if (time < 20) {
+//     greeting = "Good afternoon";
+//   } else {
+//     greeting = "Good evening";
+//   }
+//   document.getElementById("greetingtxt").innerHTML = greeting;
+// }
