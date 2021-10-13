@@ -146,6 +146,7 @@ a, a:hover, a:focus {
     font-family: 'Poppins', sans-serif;
 }
 
+ /* Media queries */
 @media (max-width: 786px) {
     .sidebar {
         padding-top: 200px;
