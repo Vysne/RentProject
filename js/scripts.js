@@ -20,16 +20,14 @@ function DropdownContent() {
   }
 }
 
-/* Picks user's local time and sets it on greeting text*/
-// function GetLocalTime() {
-//   const time= new Date().getHours();
-//   let greeting;
-//   if(time < 10) {
-//     greeting = "Good morning";
-//   } else if (time < 20) {
-//     greeting = "Good afternoon";
-//   } else {
-//     greeting = "Good evening";
-//   }
-//   document.getElementById("greetingtxt").innerHTML = greeting;
-// }
+function setGreeting() {
+  const time = new Date().getHours();
+  let greeting;
+  if(time < 10) greeting = "Good Morning";
+  else if(time < 20) greeting = "Good Afternoon";
+  else greeting = "Good Evening";
+
+  document.getElementById('greetingsTitle').innerHTML = greeting;
+}
+
+setGreeting();
