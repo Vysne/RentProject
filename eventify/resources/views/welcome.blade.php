@@ -9,7 +9,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css')}}">
 
         <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -32,7 +32,7 @@
                     <div id="sidebar">
                         <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
                             <li class="nav-item">
-                                <a href="#" class="nav-link py-3 border-bottom" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
+                                <a href="index.php" class="nav-link py-3 border-bottom" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
                                     <i class="fas fa-home fs-2"></i>
                                 </a>
                             </li>
@@ -88,61 +88,59 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="row" style="height: 100%; width: 100vw;">
+
+                        <div class="col-6 mx-auto mt-5">
+
+                            <table class="table table-stripe text-light lead text-center table-bordered">
+                                <tr>
+                                    <th>smell</th>
+                                    <th>wait</th>
+                                    <th>other</th>
+                                    <th>into</th>
+                                    <th>steady</th>
+                                </tr>
+                                <tr>
+                                    <td>being</td>
+                                    <td>married</td>
+                                    <td>class</td>
+                                    <td>best</td>
+                                    <td>loss</td>
+                                </tr>
+                                <tr>
+                                    <td>case</td>
+                                    <td>pen</td>
+                                    <td>railroad</td>
+                                    <td>grain</td>
+                                    <td>harbor</td>
+                                </tr>
+                                <tr>
+                                    <td>act</td>
+                                    <td>sheep</td>
+                                    <td>heat</td>
+                                    <td>dark</td>
+                                    <td>remember</td>
+                                </tr>
+                                <tr>
+                                    <td>women</td>
+                                    <td>orbit</td>
+                                    <td>related</td>
+                                    <td>scared</td>
+                                    <td>sand</td>
+                                </tr>
+                                <tr>
+                                    <td>pure</td>
+                                    <td>muscle</td>
+                                    <td>longer</td>
+                                    <td>distance</td>
+                                    <td>rate</td>
+                                </tr>
+                            </table>
+                        </div>
 
                     </div>
-
-                <div class="row" style="height: 100%; width: 100vw;">
-
-                    <div class="col-6 mx-auto mt-5">
-
-                        <table class="table table-stripe text-light lead text-center table-bordered">
-                            <tr>
-                                <th>smell</th>
-                                <th>wait</th>
-                                <th>other</th>
-                                <th>into</th>
-                                <th>steady</th>
-                            </tr>
-                            <tr>
-                                <td>being</td>
-                                <td>married</td>
-                                <td>class</td>
-                                <td>best</td>
-                                <td>loss</td>
-                            </tr>
-                            <tr>
-                                <td>case</td>
-                                <td>pen</td>
-                                <td>railroad</td>
-                                <td>grain</td>
-                                <td>harbor</td>
-                            </tr>
-                            <tr>
-                                <td>act</td>
-                                <td>sheep</td>
-                                <td>heat</td>
-                                <td>dark</td>
-                                <td>remember</td>
-                            </tr>
-                            <tr>
-                                <td>women</td>
-                                <td>orbit</td>
-                                <td>related</td>
-                                <td>scared</td>
-                                <td>sand</td>
-                            </tr>
-                            <tr>
-                                <td>pure</td>
-                                <td>muscle</td>
-                                <td>longer</td>
-                                <td>distance</td>
-                                <td>rate</td>
-                            </tr>
-                        </table>
-                    </div>
-
                 </div>
-
             </div>
 
         </div>
@@ -150,7 +148,7 @@
     </div>
 
 <!-- Custom JS -->
-<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
